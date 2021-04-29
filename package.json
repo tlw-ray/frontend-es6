@@ -1,0 +1,28 @@
+{
+  "name": "frontend_es6",
+  "version": "1.0.0",
+  "description": "Frontend javascript6 develop project template, by (gulp + babel + browserify + browser-sync).",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.0.0",
+    "browser-sync": "^2.26.14",
+    "browserify": "^17.0.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-load-plugins": "^2.0.6",
+    "gulp-run": "^1.7.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webserver": "^0.9.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
