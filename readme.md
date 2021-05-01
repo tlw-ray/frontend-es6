@@ -30,19 +30,25 @@ gulp+browserify 支持前端es6开发的项目模板.
     
 ## 使用说明
 
-1. 安装依赖项
+1. 全局安装cnpm使用阿里源提速下载
 
-~~~base
-npm install
+~~~bash
+npm install cnpm -g
 ~~~
 
-2. 运行默认页面, 修改代码热部署
+2. 全局安装gulp
+
+~~~bash
+cnpm install gulp -g
+~~~
+
+3. 构建并运行默认页面, 支持修改代码热部署
 
 ~~~base
 gulp dev
 ~~~
 
-3. 打包
+4. 打包
 
 ~~~bash
 gulp build
