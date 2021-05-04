@@ -54,3 +54,7 @@ gulp dev
 gulp build
 ~~~
 
+## FAQ
+
+- `npm install xxx`报错: `Maximum call stack size exceeded` 请使用cnpm安装而非npm， 除非之前也都使用的npm。
+

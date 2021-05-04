@@ -7,6 +7,8 @@ var del = require('del');
 var browserify = require("browserify");
 var source = require("vinyl-source-stream");
 
+var path = require('path')
+
 var clean = function clean(){
     return del(['dist', 'lib']);
 }

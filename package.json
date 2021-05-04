@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src -d lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/*.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "tap": "^15.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.13.16",
@@ -21,7 +22,6 @@
     "gulp-babel": "^8.0.0",
     "gulp-load-plugins": "^2.0.6",
     "gulp-run": "^1.7.1",
-    "gulp-uglify": "^3.0.2",
     "gulp-webserver": "^0.9.1",
     "vinyl-source-stream": "^2.0.0"
   }
